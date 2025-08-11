@@ -46,7 +46,7 @@ To understand or extend this project, familiarity with the following is recommen
 - React (components, props, state, hooks)
 - Git and GitHub workflows
 - HTTP requests/responses
-- Basic authentication concepts
+- Basic authentication concepts. 
 
 ---
 
