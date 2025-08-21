@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fullpage.js": "^4.0.37"
+  },
+  "devDependencies": {
+    "@types/fullpage.js": "^2.9.6"
+  }
+}
