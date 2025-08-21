@@ -16,14 +16,13 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles/styles.css",
-              "node_modules/gridjs/dist/theme/mermaid.min.css"
+               "node_modules/fullpage.js/dist/fullpage.min.css",
+               "src/styles/styles.css",
+               "node_modules/gridjs/dist/theme/mermaid.min.css"
             ]
           },
           "configurations": {
@@ -70,14 +69,14 @@
           "options": {
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+            "src/favicon.ico",
+            "src/assets"
             ],
             "styles": [
-              "src/styles/styles.css",
-              "node_modules/gridjs/dist/theme/mermaid.min.css"
+          "node_modules/fullpage.js/dist/fullpage.min.css",
+          "src/styles/styles.css",
+          "node_modules/gridjs/dist/theme/mermaid.min.css"
+
             ]
           }
         }

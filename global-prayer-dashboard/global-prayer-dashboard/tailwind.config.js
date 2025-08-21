@@ -10,18 +10,20 @@ module.exports = {
       50:  "#eef2ff",
       100: "#e0e7ff",
       500: "#3b82f6",   // main blue
-      600: "#2563eb",   // darker hover
+      600: "#14213d",   // darker hover
       700: "#1d4ed8",
     },
     secondary: {
       100: "#fef9c3",
-      500: "#facc15",   // golden highlight
+      200: "#fefae0",
+      500: "#fca311",
       600: "#eab308",
     },
     neutral: {
-      100: "#f3f4f6",
+      100: "#e5e5e5",
       500: "#6b7280",
       900: "#111827",
+      950: "#0f172a", 
     },
   },
   fontFamily: {

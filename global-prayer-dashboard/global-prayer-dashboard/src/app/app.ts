@@ -1,14 +1,12 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Card } from './components/card/card';
-import { ButtonComponent } from './components/button/button';
 import { Navbar } from './components/navbar/navbar';
-import { Section } from './components/section/section';
+import { Hero } from './components/hero/hero';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Card, Navbar, Section, ButtonComponent],
+  imports: [RouterOutlet, Navbar, Hero],
   templateUrl: './app.html'
 })
 export class App {
